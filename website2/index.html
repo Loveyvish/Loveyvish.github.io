@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="style_dupe3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="food.js">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://toppng.com/uploads/preview/food-and-beverage-food-and-beverage-logo-11563045826v8svmdw5cr.png" height="100px" width="100px" style="background-color: black;" alt="OnlineMeals.com">
+        </div>
+
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <!-- li.item{<a></a>}*5 -->
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#">About Us</a></li>
+                <li class="item"><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <h1 class="h-primary block-effect" style="--td: 1.2s" id="welcome">
+                <div class="block-reveal" style="--bc: #bf4071; --d: 0.1s">
+                    Welcome to OnlineMeals.com
+                </div> </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel necessitatibus dolorem cupiditate voluptas
+                maxime dolore officia nihil quo sint similique! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel necessitatibus dolorem cupiditate voluptas
+                maxime dolore officia nihil quo sint similique! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="btn">Order Now</button>
+        </div>
+    </section>
+
+
+
+    <section class="services-container">
+        <h1 class="h-primary center block-effect" style="--td: 1.2s" id="our-services">
+            <div class="block-reveal" style="--bc: #bf4071; --d: 0.1s" >
+                Our Services
+            </div>
+            
+        </h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis placeat et adipisci
+                    doloribus temporibus velit itaque porro nulla tempore magnam culpa, totam facere provident ea cumque
+                    omnis voluptas unde excepturi sint quos dolor cupiditate? Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Fugiat, dolores! Dolore impedit debitis quam corporis sequi repellat ipsum
+                    blanditiis maiores. </p>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/364109/pexels-photo-364109.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" id="choco" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis placeat et adipisci
+                    doloribus temporibus velit itaque porro nulla tempore magnam culpa, totam facere provident ea cumque
+                    omnis voluptas unde excepturi sint quos dolor cupiditate? Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Fugiat, dolores! Dolore impedit debitis quam corporis sequi repellat ipsum
+                    blanditiis maiores. </p>
+            </div>
+            <div class="box">
+                <img src="https://st3.depositphotos.com/35783000/37025/v/950/depositphotos_370254424-stock-illustration-food-delivery-any-delivery-motorcycle.jpg" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis placeat et adipisci
+                    doloribus temporibus velit itaque porro nulla tempore magnam culpa, totam facere provident ea cumque
+                    omnis voluptas unde excepturi sint quos dolor cupiditate? Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Fugiat, dolores! Dolore impedit debitis quam corporis sequi repellat ipsum
+                    blanditiis maiores. </p>
+            </div>
+        </div>
+        <section id="client-section">
+            <h1 class="h-primary center block-effect" style="--td: 1.2s" id="our-clients">
+                <div class="block-reveal" style="--bc: #bf4071; --d: 0.1s">
+                  Our Clients  
+                </div>
+                
+            </h1>
+            <div id="clients">
+                <div class="client-item">
+                    <img src="https://p7.hiclipart.com/preview/54/213/135/iphone-macintosh-apple-app-store-ios-png-vector-download-apple-logo-free.jpg" alt="Our Client">
+                </div>
+                <div class="client-item">
+                    <img src="https://i.pinimg.com/originals/05/02/8f/05028f54e532c5c4d0341a8e94c2b030.jpg" alt="Our Client">
+                </div>
+                <div class="client-item">
+                    <img src="data:image/jpeg;base64,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" alt="Our Client">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary  center contact block-effect" style="--td: 1.2s" >
+            <div class="block-reveal" style="--bc: #bf4071; --d: 0.1s">
+              Contact Us  
+            </div>
+            
+        </h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Contact Number: </label>
+                    <input type="phone" name="name" id="number" placeholder="Enter Your Number">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.OnlineMeals.com. All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
